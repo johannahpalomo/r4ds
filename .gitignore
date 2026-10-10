@@ -90,3 +90,6 @@ __pycache__/
 .Rproj.user
 .httr-oauth
 .quarto
+
+/.quarto/
+**/*.quarto_ipynb

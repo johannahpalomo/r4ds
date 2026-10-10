@@ -108,5 +108,55 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Chapter 1: Data Visualization</span>"
     ]
+  },
+  {
+    "objectID": "chapter2.html",
+    "href": "chapter2.html",
+    "title": "2  Chapter 2: Workflow Basics",
+    "section": "",
+    "text": "2.1 Coding basics",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2: Workflow Basics</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#coding-basics",
+    "href": "chapter2.html#coding-basics",
+    "title": "2  Chapter 2: Workflow Basics",
+    "section": "",
+    "text": "You can use R for basic math calculations\nYou can create new objects with the assignment operator &lt;-, which can be easily entered using the keyboard shortcut ⌥-.\nYou can combine multiple elements into a vector with c() (think c = concatenate or combine).\nYou can apply basic arithmetic to every element of the vector.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2: Workflow Basics</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#comments",
+    "href": "chapter2.html#comments",
+    "title": "2  Chapter 2: Workflow Basics",
+    "section": "2.2 Comments",
+    "text": "2.2 Comments\n# allows you to write comments, which will make your code more readable. Use comments to explain the why of code, not the how or what. Those are always possible to figure out, but the why is more difficult!",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2: Workflow Basics</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#whats-in-a-name",
+    "href": "chapter2.html#whats-in-a-name",
+    "title": "2  Chapter 2: Workflow Basics",
+    "section": "2.3 What’s in a name?",
+    "text": "2.3 What’s in a name?\nPosit recommends snake_case rather than camelCase.\n\nthis_is_a_really_long_name &lt;- 2.5\n\n\nYou can use other keyboard shortcuts.\n\n↑ brings you to the last command you typed so you can edit it.\nTyping “this” then pressing Cmd + ↑ lists all th commands you’ve typed that starts with the letters “this”.\n\nYou have to be precise in your instructions. No typos and consistent case throughout.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2: Workflow Basics</span>"
+    ]
+  },
+  {
+    "objectID": "chapter2.html#calling-functions",
+    "href": "chapter2.html#calling-functions",
+    "title": "2  Chapter 2: Workflow Basics",
+    "section": "2.4 Calling functions",
+    "text": "2.4 Calling functions\nR has a lot of functions that are called like this:\n\nfunction_name(argument1 = value, argument2 = value2, ...)\n\nFor example, seq() makes regular sequences of numbers.\n\nseq(from = 1, to = 10)\n\n [1]  1  2  3  4  5  6  7  8  9 10\n\nseq(1, 10)\n\n [1]  1  2  3  4  5  6  7  8  9 10\n\n\nWe can omit the names of the first several arguments in function calls, so the above functions do the same thing.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Chapter 2: Workflow Basics</span>"
+    ]
   }
 ]

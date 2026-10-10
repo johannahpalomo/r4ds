@@ -1,0 +1,38 @@
+# Chapter 2: Workflow Basics
+## Coding basics
+
+- You can use R for basic math calculations
+- You can create new objects with the assignment operator `<-`, which can be easily entered using the keyboard shortcut `⌥-`.
+- You can combine multiple elements into a vector with `c()` (think c = concatenate or combine).
+- You can apply basic arithmetic to every element of the vector.
+
+## Comments
+`#` allows you to write comments, which will make your code more readable. Use comments to explain the *why* of code, not the how or what. Those are always possible to figure out, but the why is more difficult!
+
+## What's in a name?
+Posit recommends `snake_case` rather than `camelCase`.
+```{r}
+this_is_a_really_long_name <- 2.5
+```
+- You can use other keyboard shortcuts.
+    - `↑` brings you to the last command you typed so you can edit it.
+    - Typing "this" then pressing `Cmd + ↑` lists all th commands you've typed that starts with the letters "this".
+- You have to be precise in your instructions. No typos and consistent case throughout.
+
+## Calling functions
+
+R has a lot of functions that are called like this:
+
+```{r}
+#| eval: false
+function_name(argument1 = value, argument2 = value2, ...)
+```
+
+For example, `seq()` makes regular sequences of numbers.
+
+```{r}
+seq(from = 1, to = 10)
+seq(1, 10)
+```
+
+We can omit the names of the first several arguments in function calls, so the above functions do the same thing.
