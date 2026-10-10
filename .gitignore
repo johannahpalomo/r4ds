@@ -1,0 +1,92 @@
+# ============================================================
+#  .gitignore
+# ============================================================
+# ------------------------------------------------------------
+# R-specific
+# ------------------------------------------------------------
+.Rhistory
+.RData
+.Rproj.user/
+.Renviron
+
+# R output / temp files
+*.Rout
+*.rdb
+*.rdx
+
+# packrat / renv (dependency management)
+packrat/lib*/
+packrat/src/
+renv/library/
+renv/local/
+renv/lock        # remove this line if you want to track renv.lock (recommended to keep)
+renv/staging/
+.Rprofile
+
+# ------------------------------------------------------------
+# Data — protect raw & sensitive data
+# ------------------------------------------------------------
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.sav
+*.dta
+*.sas7bdat
+*.rds
+*.RData
+*.feather
+*.parquet
+
+# ------------------------------------------------------------
+# Outputs (usually reproducible from code)
+# ------------------------------------------------------------
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.tiff
+*.eps
+
+# ------------------------------------------------------------
+# Manuscripts / rendered documents
+# ------------------------------------------------------------
+*.docx
+# keep .tex and .Rmd source; ignore compiled PDFs above
+*_cache/          # knitr / Quarto cache
+*_files/          # knitr / Quarto supporting files
+*.pptx
+
+# ------------------------------------------------------------
+# OS & editor junk
+# ------------------------------------------------------------
+# macOS
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Editors
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# ------------------------------------------------------------
+# Logs & temp files
+# ------------------------------------------------------------
+*.log
+*.tmp
+*.bak
+__pycache__/
+.Rproj.user
+.httr-oauth
+.quarto
