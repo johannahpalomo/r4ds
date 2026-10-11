@@ -1,0 +1,23 @@
+# Workflow: code style guides
+
+- Names
+    - variable names should be lowercase, have numbers, and `_`
+    - long, descriptive names are generally better than concise names that are fast to type
+- Spaces
+    - spaces on either side of mathemetical operators apart from `^` and around the assignment operator (`<-`)
+    - don't put spaces inside or outside parentheses for regular function calls
+    - put a space after a comma, not before
+    - you can add extra spaces to improve alignment
+- Pipes
+    - `|>` should always have a space before it and should typically be the last thing on a line
+    - put each argument on a new line
+    - if the function doesn't have named arguments, keep everything on one line unelss it doesn't fit
+    - indent each line by two spaces
+- ggplot2
+    - treat `+` the same way as `|>`
+- Sectioning comments
+    - as scripts get longer, you can use sectioning comments to break up file into manageable pieces
+
+```
+# Load data --------------------------------------
+```
