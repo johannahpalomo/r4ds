@@ -1,0 +1,7 @@
+# Data Tidying
+
+Chapter focuses on learning a consistent way to organize your data in R using a system called **tidy data**.
+
+```{r}
+
+```
